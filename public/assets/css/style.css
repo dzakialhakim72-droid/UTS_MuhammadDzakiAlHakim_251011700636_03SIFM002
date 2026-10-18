@@ -1,0 +1,54 @@
+:root {
+    --kc-dark: #17403d;
+    --kc-accent: #d9982b;
+    --kc-soft: #f4f1ea;
+}
+
+body {
+    background-color: var(--kc-soft);
+}
+
+.navbar-kc {
+    background-color: var(--kc-dark);
+}
+
+.navbar-kc .nav-link.active {
+    color: var(--kc-accent);
+}
+
+.hero-kc {
+    background-color: var(--kc-dark);
+    color: #fff;
+}
+
+.hero-kc .hero-id {
+    border-left: 4px solid var(--kc-accent);
+    padding-left: 1rem;
+}
+
+.btn-kc {
+    background-color: var(--kc-accent);
+    border-color: var(--kc-accent);
+    color: #1d1d1d;
+}
+
+.btn-kc:hover {
+    background-color: #c2851f;
+    border-color: #c2851f;
+    color: #1d1d1d;
+}
+
+.harga {
+    color: var(--kc-dark);
+    font-weight: 700;
+}
+
+.card-img-top {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+footer {
+    background-color: var(--kc-dark);
+    color: #d8d8d8;
+}
